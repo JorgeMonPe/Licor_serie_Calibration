@@ -15,4 +15,4 @@ Calibration for Licor Li-7820 and Li-7810 connected in series to measure discret
 2. Next, run the script `Calibration_enserie.R`
 3. The script will generate:
     * A file containing the calibration curve, which can be used directly in the repository
-    * Two files with calibration curve plots for N~2~O and CO~2~ and CH~4~.
+    * Two files with calibration curve plots for N<sub>2</sub>O and CO~2~ and CH~4~.
