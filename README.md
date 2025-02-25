@@ -11,9 +11,9 @@ Calibration for Licor Li-7820 and Li-7810 connected in series to measure discret
 1. Run the scripts from the repository to obtain integration peaks (more details available in [the repository
 ](https://github.com/JorgeMonPe/Measuring_discrete_GHG_samples_with_Licor.git)). Specifically, use `Map_injections.R` and `Raw_to_peaks_Licor.R`.
 
-  . Remember to modify the "raw" mapped injections and save them as "corrected".
+  - Remember to modify the "raw" mapped injections and save them as "corrected".
   
 2. Next, run the script `Calibration-enserie.R`
 3. The script will generate:
-  . A file containing the calibration curve, which can be used directly in the repository
-  . Two files with calibration curve plots for N<sup>2</sup>2 and CO<sup>2</sup> and CH<sup>4</sup>.
+  - A file containing the calibration curve, which can be used directly in the repository
+  - Two files with calibration curve plots for N~2~O and CO~2~ and CH~4~.
